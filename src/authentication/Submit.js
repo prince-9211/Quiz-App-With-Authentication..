@@ -14,7 +14,7 @@ const Submit=()=> {
     const user_list=[];
     const new_user_list = [];
     const newest_user_list = [];
-    const response = await fetch('https://authentication-91572-default-rtdb.firebaseio.com/userDataRecords.json');
+    const response = await fetch('https://authentication-2f339-default-rtdb.firebaseio.com/userDataRecords.json');
     const myJson = await response.json();
     for (const key of Object.keys(myJson)) {
       const val = myJson[key];
