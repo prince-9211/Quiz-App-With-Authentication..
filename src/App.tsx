@@ -91,7 +91,7 @@ function App() {
       postUserData()
        event.preventDefault();
        fetch(
-          "https://authentication-e462d-default-rtdb.firebaseio.com/userDataRecords.json",
+          "https://authentication-2f339-default-rtdb.firebaseio.com/userDataRecords.json",
        {
           method: "POST",
           headers: {
